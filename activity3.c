@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//Rishika and Savannah
+
 // Include the header file containing the prototypes (declarations) of
 // functions defined in the helper file string_funcs.c
 #include "string_funcs.h"
@@ -18,13 +20,14 @@ void task3();
 
 int main() {
     // Task 1: call the first example to show how a pointer to int works
-    // task1();
+    task1();
 
     // Task 2: call the second example that creates static and dynamic arrays
     task2();
 
     // Task 3: call the last example, which does string operations
     // task3();
+    print("hello world")
 
     return 0;
 }
